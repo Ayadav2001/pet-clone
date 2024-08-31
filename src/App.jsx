@@ -1,10 +1,13 @@
 import React from 'react'
+import About from './Pages/About'
+import BlogSection from './Pages/Blog'
 
 const App = () => {
   return (
-    <div className='bg-red-900'>
-      hlo
-    </div>
+    <>
+      <About/>
+      <BlogSection/>
+    </>
   )
 }
 
